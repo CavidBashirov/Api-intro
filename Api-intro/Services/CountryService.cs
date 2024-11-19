@@ -39,7 +39,6 @@ namespace Api_intro.Services
 
             _mapper.Map(country, existCountry);
 
-            //salam Fadile xanim, derslerinizi oxuyun
 
             _context.Countries.Update(existCountry);
 
